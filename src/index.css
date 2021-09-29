@@ -1,8 +1,14 @@
+/* imports */
+@import "styles/base.css";
+@import "styles/landing.css";
+
+/* variables */
 :root {
   --black: rgb(17, 17, 17);
   --primary-font: "Inter", sans-serif;
 }
 
+/* commons */
 body {
   font-family: var(--primary-font);
   font-weight: 700;

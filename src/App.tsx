@@ -1,9 +1,9 @@
-const App = () => {
-  return (
-    <div className="App">
-      <p>Just Web Dev.</p>
-    </div>
-  );
-};
+import Landing from "components/Landing";
+
+const App = () => (
+  <div className="App">
+    <Landing />
+  </div>
+);
 
 export default App;
