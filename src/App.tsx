@@ -1,10 +1,8 @@
-import Landing from "components/Landing";
-import Gallery from "components/Gallery";
+import AppRouter from "Router";
 
 const App = () => (
   <div className="App">
-    <Landing />
-    <Gallery />
+    <AppRouter />
   </div>
 );
 
