@@ -1,7 +1,8 @@
+
 const Landing = () => {
   return (
     <div className="landing">
-      <span>Just Web Dev.</span>
+      <span className="landing--title">JustWebDev.</span>
     </div>
   );
 };
