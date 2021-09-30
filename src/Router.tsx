@@ -1,15 +1,15 @@
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import * as routes from "constants/routes";
-import Landing from "components/Landing";
+import Home from "components/Home";
 
 const AppRouter = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Switch>
-        <Route exact path={routes.LANDING} component={Landing} />
+        <Route exact path={routes.LANDING} component={Home} />
         <Redirect to={routes.LANDING} />
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 };
 

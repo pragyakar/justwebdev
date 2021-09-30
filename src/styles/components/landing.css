@@ -7,21 +7,51 @@
   padding: 30px;
 }
 
+.landing.hide {
+  height: 0;
+}
+
 .landing--title {
+  position: absolute;
   font-weight: 700;
   font-size: 75px;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
   transition: 0.3s ease;
+}
+
+.landing--button {
+  position: fixed;
+  bottom: 50px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  color: var(--gray);
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+.landing--button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: var(--black);
 }
 
 @media (max-width:800px)  { 
   .landing--title {
     font-size: 50px;
   }
+  .landing--button {
+    font-size: 14px;
+  }
 }
 
 @media (max-width:480px)  { 
   .landing--title {
     font-size: 40px;
+  }
+  .landing--button {
+    font-size: 12px;
+    letter-spacing: 3px;
   }
 }

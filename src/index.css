@@ -2,6 +2,7 @@
 @import "styles/base.css";
 @import "styles/components/landing.css";
 @import "styles/components/gallery.css";
+@import "styles/utilities.css";
 
 /* variables */
 :root {

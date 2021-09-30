@@ -1,7 +1,11 @@
+interface IGalleryProps {
+  isLanding: boolean;
+}
 
-const Gallery = () => {
+const Gallery = (props: IGalleryProps) => {
+  const { isLanding } = props;
   return (
-    <div className="gallery">
+    <div className={`gallery ${isLanding ? "hide" : "show"}`}>
       <div className="gallery--item"></div>
       <div className="gallery--item"></div>
       <div className="gallery--item"></div>
