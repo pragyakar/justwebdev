@@ -10,7 +10,7 @@ const Landing = (props: ILandingProps) => {
     <div className={`landing ${isLanding ? "show" : "hide"}`}>
       <span className="landing--title">JustWebDev.</span>
       <span className="landing--button" onClick={onExplore}>
-        Start Exploring
+        Explore
       </span>
     </div>
   );
