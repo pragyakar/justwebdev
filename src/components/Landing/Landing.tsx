@@ -1,4 +1,4 @@
-import Gallery from "components/Landing/Gallery";
+// import Gallery from "components/Landing/Gallery";
 
 const Landing = () => {
   return (
@@ -6,7 +6,7 @@ const Landing = () => {
       <div className="landing">
         <span className="landing--title">JustWebDev.</span>
       </div>
-      <Gallery />
+      {/* <Gallery /> */}
     </div>
   );
 };
