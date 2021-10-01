@@ -1,3 +1,8 @@
 @import "utilities.css";
 @import "components/landing.css";
 @import "components/gallery.css";
+@import "components/footer.css";
+
+.body-container {
+  min-height: 90vh;
+}
