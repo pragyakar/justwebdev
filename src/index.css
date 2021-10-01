@@ -1,8 +1,6 @@
 /* imports */
 @import "styles/base.css";
-@import "styles/components/landing.css";
-@import "styles/components/gallery.css";
-@import "styles/utilities.css";
+@import "sites/Home/styles/index.css";
 
 /* variables */
 :root {

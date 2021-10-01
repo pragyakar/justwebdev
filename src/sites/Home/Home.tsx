@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Gallery from "components/Home/Gallery";
-import Landing from "components/Home/Landing";
+import Gallery from "sites/Home/components/Gallery";
+import Landing from "sites/Home/components/Landing";
 
 const Home = () => {
   const [isLanding, setIsLanding] = useState(true);
