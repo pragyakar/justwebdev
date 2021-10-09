@@ -1,3 +1,5 @@
+import sites, { ISite } from "configs/sites";
+import GalleryItem from "./GalleryItem";
 interface IGalleryProps {
   isLanding: boolean;
 }
@@ -6,11 +8,14 @@ const Gallery = (props: IGalleryProps) => {
   const { isLanding } = props;
   return (
     <div className={`gallery ${isLanding ? "hide" : "show"}`}>
-      <div className="gallery--item"></div>
-      <div className="gallery--item"></div>
-      <div className="gallery--item"></div>
-      <div className="gallery--item"></div>
-      <div className="gallery--item"></div>
+      {sites.map((site: ISite) => (
+        <GalleryItem
+          key={site.id}
+          label={site.label}
+          description={site.description || ""}
+          thumbnailUrl={site.thumbnailUrl}
+        />
+      ))}
     </div>
   );
 };
