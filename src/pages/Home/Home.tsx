@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Gallery from "sites/Home/components/Gallery";
-import Landing from "sites/Home/components/Landing";
+import Gallery from "pages/Home/components/Gallery";
+import Landing from "pages/Home/components/Landing";
 import Footer from "./components/Footer";
 
 const Home = () => {

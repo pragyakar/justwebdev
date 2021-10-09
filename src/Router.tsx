@@ -1,6 +1,6 @@
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import * as routes from "constants/routes";
-import Home from "sites/Home";
+import Home from "pages/Home";
 
 const AppRouter = () => {
   return (
