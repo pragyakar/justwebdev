@@ -14,6 +14,8 @@ const Gallery = (props: IGalleryProps) => {
           label={site.label}
           description={site.description || ""}
           thumbnailUrl={site.thumbnailUrl}
+          siteUrl={site.siteUrl}
+          repoUrl={site.repoUrl}
         />
       ))}
     </div>
