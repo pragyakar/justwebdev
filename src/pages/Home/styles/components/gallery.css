@@ -21,11 +21,7 @@
   height: 200px;
 }
 
-.gallery-item:hover {
-  cursor: pointer;
-}
-
-.gallery-item--label {
+.gallery-item--overlay {
   opacity: 0;
   z-index: 10;
   background-color: rgba(0,0,0,0.5);
@@ -37,7 +33,7 @@
   justify-content: center;
   transition: 0.3s ease;
   color: var(--white);
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
 }
 
@@ -54,9 +50,26 @@
   transition: 0.3s ease;
 }
 
-.gallery-item:hover .gallery-item--label {
+.gallery-item:hover .gallery-item--overlay {
   opacity: 1;
   transition: 0.3s ease;
+}
+
+.gallery-item--icons {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.gallery-item--icons:hover {
+  cursor: pointer;
+}
+
+.external-icon:hover{
+  color: rgb(72, 255, 224);
+}
+
+.gallery-item--icons svg{
+  margin: 10px;
 }
 
 @media (max-width: 1300px) {
